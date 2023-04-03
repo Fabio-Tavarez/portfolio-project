@@ -40,7 +40,7 @@ form.addEventListener("submit", (event) => {
    event.preventDefault()
    if (typeof event.target.searchbar.value === "string") {
     //console.log(event.target.searchbar.value);
-   console.log(document.querySelector("article `.${event.target.searchbar.value}`"))
+   console.log(document.querySelector("article`.${event.target.searchbar.value}`"))
     //document.querySelector("article.`${event.target.searchbar.value}`");
    }
 })

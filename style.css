@@ -125,3 +125,9 @@ img {
   background-color: #4592c4;
   color: #fff;
 }
+
+@media (max-width: 768px){
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
